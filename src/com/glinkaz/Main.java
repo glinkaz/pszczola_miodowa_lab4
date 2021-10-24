@@ -7,7 +7,7 @@ public class Main {
         ul.zyciePszczol();
         ul.watkiPszczol();
         ul.wypiszUl();
-        ul.dodajPszczole(new Apis.KrolowaMatka("Waleria", 7, 0));
+        ul.dodajPszczole(ul.utworzQueen("Waleria", 7, 0));
         ul.dodajPszczole(new Apis.Truten("Garry", 19, true));
         ul.dodajPszczole(new Apis.Robotnica("Amanda", 8, 22, 48));
         ul.sortujWgSily(ul.getListaPszczol());
